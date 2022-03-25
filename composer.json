@@ -17,8 +17,5 @@
     },
     "replace": {
         "mandrill/mandrill": ">=1.0.55"
-    },
-    "conflict": {
-        "mandrill/mandrill": "<1.0.55"
     }
 }
