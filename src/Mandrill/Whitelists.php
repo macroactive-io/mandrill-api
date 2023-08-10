@@ -1,6 +1,8 @@
 <?php
 
 class Mandrill_Whitelists {
+    private Mandrill $master;
+
     public function __construct(Mandrill $master) {
         $this->master = $master;
     }

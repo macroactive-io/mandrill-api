@@ -1,6 +1,8 @@
 <?php
 
 class Mandrill_Rejects {
+    private Mandrill $master;
+
     public function __construct(Mandrill $master) {
         $this->master = $master;
     }

@@ -10,7 +10,7 @@
         {"name":  "Community devs", "homepage": "https://github.com/macroactive-io/mandrill-api/graphs/contributors"}
     ],
     "require": {
-        "php": ">=5.2.0"
+        "php": ">=7.4.0"
     },
     "autoload": {
         "classmap": ["src/Mandrill", "src/Mandrill.php"]
