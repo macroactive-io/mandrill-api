@@ -55,21 +55,21 @@ class Mandrill {
         "Metadata_FieldLimit" => "Mandrill_Metadata_FieldLimit",
         "Unknown_MetadataField" => "Mandrill_Unknown_MetadataField"
     );
-    private Mandrill_Templates $templates;
-    private Mandrill_Exports $exports;
-    private Mandrill_Users $users;
-    private Mandrill_Rejects $rejects;
-    private Mandrill_Tags $tags;
-    private Mandrill_Inbound $inbound;
-    private Mandrill_Messages $messages;
-    private Mandrill_Whitelists $whitelists;
-    private Mandrill_Ips $ips;
-    private Mandrill_Internal $internal;
-    private Mandrill_Subaccounts $subaccounts;
-    private Mandrill_Urls $urls;
-    private Mandrill_Webhooks $webhooks;
-    private Mandrill_Senders $senders;
-    private Mandrill_Metadata $metadata;
+    public Mandrill_Templates $templates;
+    public Mandrill_Exports $exports;
+    public Mandrill_Users $users;
+    public Mandrill_Rejects $rejects;
+    public Mandrill_Tags $tags;
+    public Mandrill_Inbound $inbound;
+    public Mandrill_Messages $messages;
+    public Mandrill_Whitelists $whitelists;
+    public Mandrill_Ips $ips;
+    public Mandrill_Internal $internal;
+    public Mandrill_Subaccounts $subaccounts;
+    public Mandrill_Urls $urls;
+    public Mandrill_Webhooks $webhooks;
+    public Mandrill_Senders $senders;
+    public Mandrill_Metadata $metadata;
 
     public function __construct($apikey=null) {
         if(!$apikey) $apikey = getenv('MANDRILL_APIKEY');
